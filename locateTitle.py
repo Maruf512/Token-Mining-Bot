@@ -33,17 +33,12 @@ def SearchEngine():
                 imToString(x,y,width=x+w + 5,height=y+h + 5)
                 print(f"location({x},{y},{x+w},{y+h})")
                 print("++++++++++++++++++++++++++++++++++++++++++")
+                return f"{x},{y},{x+w},{y+h}"
                 
 
             # Draw rectangle around the text
             cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-
-
-# main loop
-while True:
-    SearchEngine()
-    time.sleep(1)
     
 
 # Display the image with detected text highlighted
