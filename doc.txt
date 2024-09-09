@@ -1,0 +1,4 @@
+screen shot location
+ImageGrab.grab(bbox=(0,1032,1760,1079))
+
+temp telegram.png image
